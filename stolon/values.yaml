@@ -98,7 +98,7 @@ keeper:
   resources:
     requests:
       cpu: "100m"
-      memory: "128Mi"
+      memory: "512Mi"
 
 ## Persistent Volume Storage configuration.
 ## ref: https://kubernetes.io/docs/user-guide/persistent-volumes
