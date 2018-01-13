@@ -59,7 +59,7 @@ sentinel:
   resources:
     requests:
       cpu: "100m"
-      memory: "512Mi"
+      memory: "128Mi"
 
 
 proxy:
@@ -75,7 +75,7 @@ proxy:
   resources:
     requests:
       cpu: "100m"
-      memory: "512Mi"
+      memory: "128Mi"
 
 keeper:
   replicas: 3
@@ -98,7 +98,7 @@ keeper:
   resources:
     requests:
       cpu: "100m"
-      memory: "512Mi"
+      memory: "128Mi"
 
 ## Persistent Volume Storage configuration.
 ## ref: https://kubernetes.io/docs/user-guide/persistent-volumes
