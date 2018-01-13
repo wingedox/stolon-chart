@@ -9,6 +9,9 @@
 ## Stolon image.
 ##
 
+
+etcd_image: "kubenetes/etcd-amd64"
+
 image: "sorintlab/stolon"
 
 ## Stolon image version.
@@ -20,6 +23,7 @@ imageTag: "v0.7.0-pg9.6"
 ## ref: https://kubernetes.io/docs/user-guide/images/#pre-pulling-images
 ##
 # imagePullPolicy:
+
 
 ## Configuration values for Stolon.
 
