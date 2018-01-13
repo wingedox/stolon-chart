@@ -9,9 +9,6 @@
 ## Stolon image.
 ##
 
-
-etcd_image: "kubenetes/etcd-amd64"
-
 image: "sorintlab/stolon"
 
 ## Stolon image version.
